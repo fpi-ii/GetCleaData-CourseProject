@@ -32,3 +32,4 @@ The script assumes that the UCI HAR Dataset is downloaded and unzipped, and that
 
 The script will save the tidy data set required by the assignment in the working directory under the name 'pr_assignment_2_tidy_data.txt'.
 
+See the Cookbook.md for a more detailed description of the data analysis.

@@ -53,6 +53,9 @@ dataSet <- merge(dataSet, activityLabels, by.x = "activityID");
 tidyData <- aggregate(dataSet, by=list(dataSet$subject, dataSet$activity), FUN = mean); 
 # the above call will give warnings because of the activity column which can't be coerced to numeric. I remove it from the final data set. And also do some renaming.
 tidyData$activity <- NULL;
+tidyData$activityID <- NULL;
+tidyData$subject <- NULL;
+
 names(tidyData)[names(tidyData) == 'Group.1'] <- 'subject';
 names(tidyData)[names(tidyData) == 'Group.2'] <- 'activity';
 
