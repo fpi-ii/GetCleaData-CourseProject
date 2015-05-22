@@ -1,6 +1,6 @@
-## Code book
+# Code book
 
-# Processing the data
+## Processing the data
 
 1. Set the working directory to where the archive was expanded.
 * Defines a few local variables that store relative paths.
